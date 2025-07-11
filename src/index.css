@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import url('slick-carousel/slick/slick.css');
+@import url('slick-carousel/slick/slick-theme.css');
+
+body{
+    overflow-x: hidden;
+
+}
+
+.hero{
+background-image: url("/herobg.png");
+background-size: cover;
+}
+.show:hover{
+
+    
+}
+
+/* Add gap between react-slick slides in testimonial */
+.custom-slider-gap .slick-slide {
+  padding: 0 16px; /* 16px gap on each side, adjust as needed */
+  box-sizing: border-box;
+}
+
+/* Optional: prevent overflow on the slider container */
+.custom-slider-gap {
+  margin-left: -16px;
+  margin-right: -16px;
+}
